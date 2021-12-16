@@ -1,7 +1,7 @@
 <template>
-<div class="flex justify-center bg-black py-20" id="footer-bg">
-    <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-4 text-white lg:w-3/4 md:w-full sm:w-full">
-        <div class="p-4">
+<div class="flex justify-center py-20 bg-gray-200 dark:bg-gray-900 dark:text-white dark:duration-300" id="footer-bg">
+    <div class="grid lg:grid-cols-6 md:grid-cols-3 gap-2 lg:w-3/4 md:w-full sm:w-full">
+        <div class="p-4 col-span-2">
             <h1 class="text-4xl font-bold uppercase">Budgetmore</h1>
             <p class="text-sm text-gray-400">A powerful tool that
                                 understands what needs to be done to gain deep insights and visualizations about your spending habits,
@@ -41,7 +41,7 @@
         </div>
         <div class="p-4">
             <h1 class="text-2xl font-bold uppercase">Social</h1>
-            <div>
+            <div class="align-top">
                 <ul>
                     <li class="my-2 hover:text-green-400">Facebook</li>
                     <li class="my-2 hover:text-green-400">Twitter</li>

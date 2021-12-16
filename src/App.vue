@@ -1,5 +1,4 @@
 <script>
-import Navigation from './components/navigation.vue'
 import Footer from './components/footer.vue'
 import Hero from './components/hero.vue'
 import Point1 from './components/point1.vue'
@@ -10,7 +9,6 @@ import Plaid from './components/plaid.vue'
 export default {
   name: 'app',
   components: {
-    Navigation,
     Footer,
     Hero,
     Point1,
@@ -20,16 +18,27 @@ export default {
   },
   data() {
     return {
-      isDark: true
+      isDark: false
     }
   },
 }
 </script>
 
 <template>
+<div :class="isDark ? 'dark' : ''">
+<div class="h-16 bg-gradient-to-r from-black to-gray-900 flex justify-between items-center fixed top-0 w-full z-10">
+    <div class="p-4">
+        <h1 class="dark:text-white font-bold text-2xl text-green-600">Budgetmore</h1>
+    </div>
+    <div class="p-4">
+        <button type="button" 
+        @click="isDark = !isDark"
+        class="p-2 text-white text-2xl">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+</div>
 
-
-  <Navigation />
   <Hero />
   <Point1 />
   <Point2 />
@@ -37,7 +46,7 @@ export default {
   <Plaid />
   <Footer />
 
-
+  </div>
 </template>
 
 
