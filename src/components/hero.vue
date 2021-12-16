@@ -5,7 +5,7 @@
             <i class="fas fa-hand-holding-usd text-green-500 text-8xl my-4 animate__animated animate__bounce"></i>
             <h1 class="lg:text-6xl text-4xl sm:w-full text-center animate__animated animate__headShake 
                         font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">Budgeting made easy</h1>
-            <p class="text-center w-1/2 my-8"> Visualizations about your spending habits, goals, and much more without being opinionated.</p>
+            <p class="text-center lg:w-1/2 my-8"> Visualizations about your spending habits, goals, and much more without being opinionated.</p>
             
         </div>
         <div class="backdrop-blur-md my-20 border rounded-lg dark:border-gray-500 dark:text-white">

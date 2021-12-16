@@ -1,6 +1,6 @@
 <template>
     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 dark:bg-gray-900 dark:text-white dark:duration-300">
-        <div class="grid items-center justify-end">            
+        <div class="grid items-center lg:justify-end p-4">            
             <img src="../assets/point1-graphic.png" 
             class="" 
             alt="" 

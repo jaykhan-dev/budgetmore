@@ -1,7 +1,8 @@
 <template>
-    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 dark:bg-gray-900 dark:text-white dark:duration-300">
+    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-rows-1 dark:bg-gray-900 dark:text-white dark:duration-300">
+        
         <div class="flex justify-end">
-            <div class="p-8 lg:order-first sm:order-last lg:w-2/4">
+            <div class="p-8 lg:w-2/4">
                 <i class="fas fa-file-invoice text-4xl my-2 text-green-500"></i>
                 <div>
                     
@@ -14,7 +15,7 @@
         </div>
         
         
-        <div class="grid place-items-left items-center" data-aos="zoom-in-down">
+        <div class="flex items-center translate-x-8 p-4">
             <img src="../assets/report.png" 
             alt="" 
             width="250" 
