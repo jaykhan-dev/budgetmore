@@ -1,7 +1,7 @@
 <template>
-<div class="flex justify-center py-20 bg-gray-200 dark:bg-gray-900 dark:text-white dark:duration-300" id="footer-bg">
+<div class="block flex justify-center py-20 bg-gray-200 dark:bg-gray-900 dark:text-white dark:duration-300" id="footer-bg">
     <div class="grid lg:grid-cols-6 md:grid-cols-3 gap-2 lg:w-3/4 md:w-full sm:w-full">
-        <div class="p-4 col-span-2">
+        <div class="p-2 col-span-2">
             <h1 class="text-4xl font-bold uppercase">Budgetmore</h1>
             <p class="text-sm text-gray-400">A powerful tool that
                                 understands what needs to be done to gain deep insights and visualizations about your spending habits,
@@ -9,7 +9,7 @@
             </p>
             <p class="text-sm my-4 text-gray-400">Copyright 2021</p>
         </div>
-        <div class="p-4">
+        <div class="p-2">
             <h1 class="text-2xl font-bold uppercase">Company</h1>
             <div>
                 <ul>
@@ -21,7 +21,7 @@
                 </ul>
             </div>
         </div>
-        <div class="p-4">
+        <div class="p-2">
             <h1 class="text-2xl font-bold uppercase">Help</h1>
             <div>
                 <ul>
@@ -30,7 +30,7 @@
                 </ul>
             </div>       
         </div>
-        <div class="p-4">
+        <div class="p-2">
             <h1 class="text-2xl font-bold uppercase">Software</h1>
             <div>
                 <ul>
@@ -39,7 +39,7 @@
                 </ul>
             </div>
         </div>
-        <div class="p-4">
+        <div class="p-2">
             <h1 class="text-2xl font-bold uppercase">Social</h1>
             <div class="align-top">
                 <ul>

@@ -27,10 +27,10 @@ export default {
 <template>
 <div :class="isDark ? 'dark' : ''">
 <div class="h-16 bg-gradient-to-r from-black to-gray-900 flex justify-between items-center fixed top-0 w-full z-10">
-    <div class="p-4">
+    <div class="p-2">
         <h1 class="dark:text-white font-bold text-2xl text-green-600">Budgetmore</h1>
     </div>
-    <div class="p-4">
+    <div class="p-2">
         <button type="button" 
         @click="isDark = !isDark"
         class="p-2 text-white text-2xl">
@@ -55,8 +55,15 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap');
 * {
   font-family: 'Montserrat', sans-serif;
+  
 }
-h1 {
-  font-weight: 200;
+
+body, html {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
-<div class="lg:h-screen grid place-items-center bg-white dark:bg-black dark:bg-opacity-90 dark:text-white dark:duration-300 bg-opacity-80" id="hero-bg">
+<div class="block lg:h-screen grid place-items-center bg-white dark:bg-black dark:bg-opacity-90 dark:text-white dark:duration-300 bg-opacity-80" id="hero-bg">
     <div class="p-4 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center mt-20">
         <div class="grid place-items-center justify-end w-3/4">
             <i class="fas fa-hand-holding-usd text-green-500 text-8xl my-4 animate__animated animate__bounce"></i>
             <h1 class="lg:text-6xl text-4xl sm:w-full text-center animate__animated animate__headShake 
-                        font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">Budgeting made easy</h1>
+                        font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-2">Budgeting made easy</h1>
             <p class="text-center lg:w-1/2 my-8"> Visualizations about your spending habits, goals, and much more without being opinionated.</p>
             
         </div>

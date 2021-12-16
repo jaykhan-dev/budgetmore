@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-center grid place-items-center py-20 dark:bg-gray-900 dark:text-white dark:duration-300">
+    <div class="block justify-center grid place-items-center py-20 dark:bg-gray-900 dark:text-white dark:duration-300">
         <img src="../assets/plaid-black.png" 
         alt="" 
         width="300" 
