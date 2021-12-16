@@ -7,5 +7,5 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const app = createApp(App)
-app.AOS = new AOS.init({ disable: "phone"})
+app.AOS = new AOS.init({ disable: "mobile"})
 app.use(router).mount("#app")
